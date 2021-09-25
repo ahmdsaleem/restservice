@@ -10,6 +10,7 @@ public class RestServiceApplication {
 
         System.out.println("hello");
         System.out.println("hello");
+        System.out.println("hello");
         SpringApplication.run(RestServiceApplication.class, args);
     }
 
