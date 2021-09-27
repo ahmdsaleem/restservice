@@ -2,16 +2,16 @@ package com.mcvilla.restservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class RestServiceApplication {
 
     public static void main(String[] args) {
 
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
-        SpringApplication.run(RestServiceApplication.class, args);
+
+        ConfigurableApplicationContext context= SpringApplication.run(RestServiceApplication.class, args);
+
     }
 
 }
